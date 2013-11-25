@@ -10,4 +10,9 @@
 
 @implementation KMBadge
 
++ (KMBadge *)badgeWithType:(KMBadgeType)aBadgeType
+{
+    return [[KMBadge alloc] init];
+}
+
 @end
